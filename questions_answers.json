@@ -1,0 +1,769 @@
+{
+  "History": {
+    "Easy": [
+       {
+        "question": "Who was the first President of the United States?",
+        "options": ["George Washington", "Abraham Lincoln"],
+        "correct_answer": "George Washington"
+      },
+      {
+        "question": "What year did the Second World War end?",
+        "options": ["1939", "1945"],
+        "correct_answer": "1945"
+      },
+      {
+        "question": "Who was the first President of the United Kingdom?",
+        "options": ["Winston Churchill", "Queen Elizabeth I"],
+        "correct_answer": "Winston Churchill"
+      },
+      {
+        "question": "What year did the Titanic sink?",
+        "options": ["1912", "1920"],
+        "correct_answer": "1912"
+      },
+      {
+        "question": "Who was the first man to walk on the moon?",
+        "options": ["Buzz Aldrin", "Neil Armstrong"],
+        "correct_answer": "Neil Armstrong"
+      },
+      {
+        "question": "What was the name of the ship that brought the pilgrims to America?",
+        "options": ["The Endeavour", "The Mayflower"],
+        "correct_answer": "The Mayflower"
+      },
+      {
+        "question": "Who invented the telephone?",
+        "options": ["Alexander Graham Bell", "Thomas Edison"],
+        "correct_answer": "Alexander Graham Bell"
+      },
+      {
+        "question": "In which year did World War I start?",
+        "options": ["1914", "1912"],
+        "correct_answer": "1914"
+      },
+      {
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": ["Roman Empire", "Ottoman Empire"],
+        "correct_answer": "Roman Empire"
+      },
+      {
+        "question": "What is the capital city of France?",
+        "options": ["Berlin", "Paris"],
+        "correct_answer": "Paris"
+      },
+      {
+        "question": "Who was the first woman Prime Minister of the UK?",
+        "options": ["Margaret Thatcher", "Theresa May"],
+        "correct_answer": "Margaret Thatcher"
+      },
+      {
+        "question": "In what year did the Berlin Wall fall?",
+        "options": ["1991", "1989"],
+        "correct_answer": "1989"
+      },
+      {
+        "question": "Which country did the U.S. fight in the War of 1812?",
+        "options": ["Britain", "France"],
+        "correct_answer": "Britain"
+      },
+      {
+        "question": "In which year did the United States gain independence?",
+        "options": ["1783", "1776"],
+        "correct_answer": "1776"
+      },
+      {
+        "question": "Who was the first Emperor of China?",
+        "options": ["Qin Shi Huang", "Li Shimin"],
+        "correct_answer": "Qin Shi Huang"
+      },
+      {
+        "question": "Who was the first person to circumnavigate the globe?",
+        "options": ["Christopher Columbus", "Ferdinand Magellan"],
+        "correct_answer": "Ferdinand Magellan"
+      },
+      {
+        "question": "Which country did the Vikings originate from?",
+        "options": ["Sweden", "Norway"],
+        "correct_answer": "Norway"
+      },
+      {
+        "question": "Who was the first woman to fly solo across the Atlantic?",
+        "options": ["Amelia Earhart", "Bessie Coleman"],
+        "correct_answer": "Amelia Earhart"
+      },
+      {
+        "question": "Which country was the first to land a man on the moon?",
+        "options": ["USA", "USSR"],
+        "correct_answer": "USA"
+      },
+      {
+        "question": "Who was the last Emperor of Russia?",
+        "options": ["Alexander II", "Nicholas II"],
+        "correct_answer": "Nicholas II"
+      }
+    ],
+    "Medium": [ {
+      "question": "Who wrote the Declaration of Independence?",
+      "options": ["Benjamin Franklin", "John Adams", "Thomas Jefferson"],
+      "correct_answer": "Thomas Jefferson"
+      },
+      {
+      "question": "Who was the first ruler of the Mongol Empire?",
+      "options": ["Kublai Khan", "Genghis Khan", "Ogedei Khan"],
+      "correct_answer": "Genghis Khan"
+      },
+      {
+      "question": "What year did the French Revolution begin?",
+      "options": ["1776", "1789", "1792"],
+      "correct_answer": "1789"
+      },
+      {
+      "question": "Which war was fought between the North and South of the United States?",
+      "options": ["World War I", "Mexican-American War", "Civil War"],
+      "correct_answer": "Civil War"
+      },
+      {
+      "question": "Who was the first Chancellor of Germany after WWII?",
+      "options": ["Konrad Adenauer", "Otto von Bismarck", "Ludwig Erhard"],
+      "correct_answer": "Konrad Adenauer"
+      },
+      {
+      "question": "Who discovered the theory of gravity?",
+      "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei"],
+      "correct_answer": "Isaac Newton"
+      },
+      {
+      "question": "In which year was the United Nations founded?",
+      "options": ["1948", "1918", "1945"],
+      "correct_answer": "1945"
+      },
+      {
+      "question": "Who was the leader of Nazi Germany during World War II?",
+      "options": ["Adolf Hitler", "Joseph Stalin", "Benito Mussolini"],
+      "correct_answer": "Adolf Hitler"
+      },
+      {
+      "question": "What year did the Battle of Hastings take place?",
+      "options": ["1077", "1066", "1054"],
+      "correct_answer": "1066"
+      },
+      {
+      "question": "Which historical figure is famous for his 'I Have a Dream' speech?",
+      "options": ["Malcolm X", "Martin Luther King Jr.", "Nelson Mandela"],
+      "correct_answer": "Martin Luther King Jr."
+      },
+      {
+      "question": "In which year did the American Civil War end?",
+      "options": ["1868", "1861", "1865"],
+      "correct_answer": "1865"
+      },
+      {
+      "question": "Who was the first woman to win a Nobel Prize?",
+      "options": ["Marie Curie", "Rosalind Franklin", "Dorothy Hodgkin"],
+      "correct_answer": "Marie Curie"
+      },
+      {
+      "question": "Which war ended with the Treaty of Versailles?",
+      "options": ["World War II", "World War I", "Franco-Prussian War"],
+      "correct_answer": "World War I"
+      },
+      {
+      "question": "Who was the first Emperor of Rome?",
+      "options": ["Julius Caesar", "Augustus", "Tiberius"],
+      "correct_answer": "Augustus"
+      },
+      {
+      "question": "Which war was fought between the USA and Vietnam?",
+      "options": ["Vietnam War", "Korean War", "Cold War"],
+      "correct_answer": "Vietnam War"
+      },
+      {
+      "question": "Which empire is known for building the Great Wall of China?",
+      "options": ["Han Dynasty", "Tang Dynasty", "Qin Dynasty"],
+      "correct_answer": "Qin Dynasty"
+      },
+      {
+      "question": "In which year did Christopher Columbus sail to the Americas?",
+      "options": ["1485", "1492", "1500"],
+      "correct_answer": "1492"
+      },
+      {
+      "question": "Who was the first president of independent India?",
+      "options": ["Jawaharlal Nehru", "Rajendra Prasad", "Sardar Patel"],
+      "correct_answer": "Rajendra Prasad"
+      },
+      {
+      "question": "In which year did World War II start?",
+      "options": ["1941", "1936", "1939"],
+      "correct_answer": "1939"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Which year was the Magna Carta signed?",
+        "options": ["1315", "1515", "1215", "1415"],
+        "correct_answer": "1215"
+      },
+      {
+        "question": "Who was the first person to circumnavigate the globe?",
+        "options": [ "Ferdinand Magellan", "Christopher Columbus", "Vasco da Gama", "John Cabot"],
+        "correct_answer": "Ferdinand Magellan"
+      },
+      {
+        "question": "Which famous battle took place in 1066?",
+        "options": ["Battle of Trafalgar", "Battle of Waterloo", "Battle of Hastings", "Battle of Agincourt"],
+        "correct_answer": "Battle of Hastings"
+      },
+      {
+        "question": "Which emperor built the Colosseum in Rome?",
+        "options": ["Trajan", "Augustus", "Hadrian", "Vespasian"],
+        "correct_answer": "Vespasian"
+      },
+      {
+        "question": "Which war was fought between the USA and Great Britain in the 1810s?",
+        "options": ["American Revolution", "War of 1812", "Spanish-American War", "War of 1815"],
+        "correct_answer": "War of 1812"
+      },
+      {
+        "question": "What was the capital of the Aztec Empire?",
+        "options": ["Cuzco", "Tenochtitlán", "Teotihuacan", "Chichen Itza"],
+        "correct_answer": "Tenochtitlán"
+      },
+      {
+        "question": "What year did the Battle of Waterloo take place?",
+        "options": ["1805", "1815", "1905", "1776"],
+        "correct_answer": "1815"
+      },
+      {
+        "question": "Which country was the first to give women the right to vote?",
+        "options": ["USA", "Canada", "Australia", "New Zealand"],
+        "correct_answer": "New Zealand"
+      },
+      {
+        "question": "Which treaty ended World War I?",
+        "options": ["Treaty of Paris", "Treaty of Tordesillas", "Treaty of Versailles", "Treaty of Utrecht"],
+        "correct_answer": "Treaty of Versailles"
+      },
+      {
+        "question": "Which war was fought between 1914 and 1918?",
+        "options": ["World War II", "World War I", "Korean War", "Vietnam War"],
+        "correct_answer": "World War I"
+      },
+      {
+        "question": "Who was the last Tsar of Russia?",
+        "options": ["Nicholas II", "Alexander II", "Peter the Great", "Catherine the Great"],
+        "correct_answer": "Nicholas II"
+      },
+      {
+        "question": "In which year was the United Nations founded?",
+        "options": ["1945", "1918", "1939", "1950"],
+        "correct_answer": "1945"
+      },
+      {
+        "question": "Who led the Bolshevik Revolution in Russia?",
+        "options": ["Joseph Stalin", "Vladimir Lenin", "Leon Trotsky", "Alexander Kerensky"],
+        "correct_answer": "Vladimir Lenin"
+      },
+      {
+        "question": "Who is credited with the discovery of America?",
+        "options": ["Christopher Columbus", "Marco Polo", "John Cabot", "Leif Erikson"],
+        "correct_answer": "Leif Erikson"
+      },
+      {
+        "question": "Which empire was ruled by Charlemagne?",
+        "options": ["Byzantine Empire", "Ottoman Empire", "Holy Roman Empire", "Roman Empire"],
+        "correct_answer": "Holy Roman Empire"
+      },
+      {
+        "question": "Which Pharaoh built the Great Pyramid of Giza?",
+        "options": ["Ramesses II", "Tutankhamun", "Nefertiti", "Khufu"],
+        "correct_answer": "Khufu"
+      }
+    ]
+  },
+  "Computer Science": {
+    "Easy": [
+      {
+        "question": "What does CPU stand for?",
+        "options": ["Central Processing Unit", "Central Program Unit"],
+        "correct_answer": "Central Processing Unit"
+      },
+      {
+        "question": "Which programming language is primarily used for web development?",
+        "options": ["Python", "JavaScript"],
+        "correct_answer": "JavaScript"
+      },
+      {
+        "question": "Which data structure uses LIFO (Last In First Out)?",
+        "options": ["Queue", "Stack"],
+        "correct_answer": "Stack"
+      },
+      {
+        "question": "Which company developed the Python programming language?",
+        "options": ["Google", "Microsoft", "Guido van Rossum"],
+        "correct_answer": "Guido van Rossum"
+      },
+      {
+        "question": "What does the 'HTML' in HTML5 stand for?",
+        "options": ["Hyper Text Markup Language", "Hyper Transfer Markup Language"],
+        "correct_answer": "Hyper Text Markup Language"
+      },
+      {
+        "question": "What type of language is Java?",
+        "options": ["Functional", "Object-oriented"],
+        "correct_answer": "Object-oriented"
+      },
+      {
+        "question": "What does a web browser do?",
+        "options": ["Renders web pages", "Hosts a website"],
+        "correct_answer": "Renders web pages"
+      },
+      {
+        "question": "What does URL stand for?",
+        "options": ["Uniform Resource Locator", "Uniform Retrieval Locator"],
+        "correct_answer": "Uniform Resource Locator"
+      },
+      {
+        "question": "What is the smallest unit of data in a computer?",
+        "options": ["Byte", "Bit"],
+        "correct_answer": "Bit"
+      },
+      {
+        "question": "Which language is known as the mother of all programming languages?",
+        "options": ["Assembly", "C"],
+        "correct_answer": "C"
+      },
+      {
+        "question": "Which of the following is an operating system?",
+        "options": ["Java", "Linux"],
+        "correct_answer": "Linux"
+      },
+      {
+        "question": "Which software is primarily used for word processing?",
+        "options": ["Microsoft Word", "Microsoft Excel"],
+        "correct_answer": "Microsoft Word"
+      },
+      {
+        "question": "What does GUI stand for?",
+        "options": ["Graphical User Interface", "Graphical Unified Interface"],
+        "correct_answer": "Graphical User Interface"
+      },
+      {
+        "question": "What type of device is a printer?",
+        "options": ["Input", "Output"],
+        "correct_answer": "Output"
+      },
+      {
+        "question": "Which programming language is known for its simplicity and readability?",
+        "options": ["Python", "JavaScript"],
+        "correct_answer": "Python"
+      }
+    ],
+    "Medium": [
+      {
+        "question": "What is the time complexity of binary search?",
+        "options": ["O(n)", "O(log n)", "O(n log n)"],
+        "correct_answer": "O(log n)"
+      },
+      {
+        "question": "Which of the following is not a programming language?",
+        "options": ["HTML", "JavaScript", "C++"],
+        "correct_answer": "HTML"
+      },
+      {
+        "question": "Which algorithm is used for searching a graph?",
+        "options": ["Merge Sort", "Depth First Search", "Breadth First Search"],
+        "correct_answer": "Depth First Search"
+      },
+      {
+        "question": "What does DNS stand for?",
+        "options": ["Domain Name System", "Dynamic Network Service", "Domain Network Service"],
+        "correct_answer": "Domain Name System"
+      },
+      {
+        "question": "Which language is used for creating Android apps?",
+        "options": ["Kotlin", "Swift", "Java"],
+        "correct_answer": "Java"
+      }
+    ],
+    "Hard": [
+      {
+        "question": "Which algorithm is used to find the shortest path in a graph?",
+        "options": ["Quick Sort", "Merge Sort", "Bubble Sort", "Dijkstra's Algorithm"],
+        "correct_answer": "Dijkstra's Algorithm"
+      },
+      {
+        "question": "What does the '&&' symbol mean in many programming languages?",
+        "options": ["Logical AND", "Logical OR", "Bitwise AND", "Bitwise OR"],
+        "correct_answer": "Logical AND"
+      },
+      {
+        "question": "Which data structure is commonly used to implement a priority queue?",
+        "options": ["Stack", "Queue", "Heap", "Linked List"],
+        "correct_answer": "Heap"
+      },
+      {
+        "question": "Which type of algorithm is used to sort elements in an array in ascending order?",
+        "options": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+        "correct_answer": "Merge Sort"
+      },
+      {
+        "question": "In object-oriented programming, what does 'inheritance' allow a class to do?",
+        "options": ["Share methods and properties with another class", "Delete methods from a class", "Create a new class from scratch", "Implement interfaces"],
+        "correct_answer": "Share methods and properties with another class"
+      },
+      {
+        "question": "Which command in Git is used to create a new branch?",
+        "options": ["git init", "git branch", "git clone", "git checkout"],
+        "correct_answer": "git branch"
+      },
+      {
+        "question": "In HTML, which tag is used to define an unordered list?",
+        "options": ["<ol>", "<li>", "<ul>", "<list>"],
+        "correct_answer": "<ul>"
+      },
+      {
+        "question": "What is the time complexity of binary search in the worst case?",
+        "options": ["O(n)", "O(log n)", "O(n^2)", "O(1)"],
+        "correct_answer": "O(log n)"
+      },
+      {
+        "question": "Which of the following programming languages is dynamically typed?",
+        "options": ["C++", "Java", "C#", "Python"],
+        "correct_answer": "Python"
+      },
+      {
+        "question": "Which of these is a characteristic of a stack data structure?",
+        "options": ["FIFO (First In, First Out)", "LIFO (Last In, First Out)", "Sorted order", "Priority-based order"],
+        "correct_answer": "LIFO (Last In, First Out)"
+      }
+    ]
+  },
+  "Maths": {
+    "Easy": [
+       {
+        "question": "Which of the following is a rational number?",
+        "options": ["pi", "4/5"],
+        "correct_answer": "4/5"
+      },
+      
+      {
+        "question": "What is the sum of the interior angles of a triangle?",
+        "options": ["180", "360"],
+        "correct_answer": "180"
+      },
+      
+      {
+        "question": "Which of these statements is true about parallel lines?",
+        "options": ["They meet at infinity", "They never intersect"],
+        "correct_answer": "They never intersect"
+      },
+      
+      {
+        "question": "What is the value of 0!(zero factorial)?",
+        "options": ["1", "0"],
+        "correct_answer": "1"
+      },
+      
+      {
+        "question": "What is the prime factorization of 12?",
+        "options": ["2 * 2 * 3", "1 * 12"],
+        "correct_answer": "2 * 2 * 3"
+      },
+      
+      {
+        "question": "Which property does addition satisfy?",
+        "options": ["Reflexive", "Associative"],
+        "correct_answer": "Associative"
+      },
+
+      {
+        "question": "What is the square root of 49",
+        "options": ["4", "7"],
+        "correct_answer": "7"
+      },
+
+      {
+        "question": "What is the slope of a horizontal line?",
+        "options": ["0", "1"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "WWhich shape has exactly one pair of parallel sides?",
+        "options": ["Square", "Trapezium"],
+        "correct_answer": "Trapezium"
+      },
+
+      {
+        "question": "If x + 5 = 10, what is x?",
+        "options": ["0", "5"],
+        "correct_answer": "5"
+      },
+      
+      {
+        "question": "What does the commutative property of multiplication state?",
+        "options": ["a * b = b * a", "a * b = b * b"],
+        "correct_answer": "a * b = b * a"
+      },
+
+      {
+        "question": "What is the greatest common divisor (GCD) of 8 and 12?",
+        "options": ["6", "4"],
+        "correct_answer": "4"
+      },
+
+      {
+        "question": "Which of the following is not a property of a square?",
+        "options": ["All sides are equal", "It has five sides"],
+        "correct_answer": "It has five sides"
+      },
+
+      {
+        "question": "If a number is divisible by 2 and 3, it is also divisible by:",
+        "options": ["6", "4"],
+        "correct_answer": "6"
+      },
+      
+      {
+        "question": "What is the area of a circle with radius r?",
+        "options": ["pi^2 * r", "pi * r^2"],
+        "correct_answer": "pi * r^2"
+      },
+
+      {
+        "question": "Which of the following is an example of a linear equation?",
+        "options": ["x + y = 3", "x^2 + y^2 = 4"],
+        "correct_answer": "x + y = 3"
+      },
+      {
+        "question": "What is the additive identity in mathematics?",
+        "options": ["1", "0"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "If a^2 = b^2 what statement is true?",
+        "options": ["a = b", "a = b or a = -b"],
+        "correct_answer": "a = b or a = -b"
+      }
+    ],
+    "Medium": [ 
+      {
+        "question": "Which of the following is a rational number?",
+        "options": ["pi", "4/5", "e"],
+        "correct_answer": "4/5"
+      },
+      
+      {
+        "question": "What is the sum of the interior angles of a triangle?",
+        "options": ["180", "360", "100"],
+        "correct_answer": "180"
+      },
+      
+      {
+        "question": "Which of these statements is true about parallel lines?",
+        "options": ["They meet at infinity", "They never intersect", "They always intersect"],
+        "correct_answer": "They never intersect"
+      },
+      
+      {
+        "question": "What is the value of 0!(zero factorial)?",
+        "options": ["1", "0", "-1"],
+        "correct_answer": "1"
+      },
+      
+      {
+        "question": "What is the prime factorization of 12?",
+        "options": ["2 * 2 * 3", "1 * 12", "4 * 3"],
+        "correct_answer": "2 * 2 * 3"
+      },
+      
+      {
+        "question": "Which property does addition satisfy?",
+        "options": ["Reflexive", "Associative", "Distributive"],
+        "correct_answer": "Associative"
+      },
+
+      {
+        "question": "What is the square root of 49",
+        "options": ["4", "7", "8"],
+        "correct_answer": "7"
+      },
+
+      {
+        "question": "What is the slope of a horizontal line?",
+        "options": ["0", "1", "2"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "WWhich shape has exactly one pair of parallel sides?",
+        "options": ["Square", "Trapezium", "parallelogram"],
+        "correct_answer": "Trapezium"
+      },
+
+      {
+        "question": "If x + 5 = 10, what is x?",
+        "options": ["0", "5", "-5"],
+        "correct_answer": "5"
+      },
+      
+      {
+        "question": "What does the commutative property of multiplication state?",
+        "options": ["a * b = b * a", "a * b = b * b", "a * b = a * a"],
+        "correct_answer": "a * b = b * a"
+      },
+
+      {
+        "question": "What is the greatest common divisor (GCD) of 8 and 12?",
+        "options": ["6", "4", "8"],
+        "correct_answer": "4"
+      },
+
+      {
+        "question": "Which of the following is not a property of a square?",
+        "options": ["All sides are equal", "It has five sides", "Its interior angles add up to 360"],
+        "correct_answer": "It has five sides"
+      },
+
+      {
+        "question": "If a number is divisible by 2 and 3, it is also divisible by:",
+        "options": ["6", "4", "7"],
+        "correct_answer": "6"
+      },
+      
+      {
+        "question": "What is the area of a circle with radius r?",
+        "options": ["pi^2 * r", "pi * r^2", "r^2"],
+        "correct_answer": "pi * r^2"
+      },
+
+      {
+        "question": "Which of the following is an example of a linear equation?",
+        "options": ["x + y = 3", "x^2 + y^2 = 4", "x^2 + x = y"],
+        "correct_answer": "x + y = 3"
+      },
+      {
+        "question": "What is the additive identity in mathematics?",
+        "options": ["1", "0", "-1"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "If a^2 = b^2 what statement is true?",
+        "options": ["a = b", "a = b or a = -b", "a = -b"],
+        "correct_answer": "a = b or a = -b"
+      }
+    ],
+
+    "Hard": [
+      {
+        "question": "Which of the following is a rational number?",
+        "options": ["pi", "4/5", "e", "i"],
+        "correct_answer": "4/5"
+      },
+      
+      {
+        "question": "What is the sum of the interior angles of a triangle?",
+        "options": ["180", "360", "100", "1800"],
+        "correct_answer": "180"
+      },
+      
+      {
+        "question": "Which of these statements is true about parallel lines?",
+        "options": ["They meet at infinity", "They never intersect", "They always intersect", "They have different slopes"],
+        "correct_answer": "They never intersect"
+      },
+      
+      {
+        "question": "What is the value of 0!(zero factorial)?",
+        "options": ["1", "0", "-1", "Undefined"],
+        "correct_answer": "1"
+      },
+      
+      {
+        "question": "What is the prime factorization of 12?",
+        "options": ["2 * 2 * 3", "1 * 12", "4 * 3", "6 * 2"],
+        "correct_answer": "2 * 2 * 3"
+      },
+      
+      {
+        "question": "Which property does addition satisfy?",
+        "options": ["Reflexive", "Associative", "Distributive", "Transitive"],
+        "correct_answer": "Associative"
+      },
+
+      {
+        "question": "What is the square root of 49",
+        "options": ["4", "7", "8", "2"],
+        "correct_answer": "7"
+      },
+
+      {
+        "question": "What is the slope of a horizontal line?",
+        "options": ["0", "1", "2", "-1"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "WWhich shape has exactly one pair of parallel sides?",
+        "options": ["Square", "Trapezium", "parallelogram", "Rectangle"],
+        "correct_answer": "Trapezium"
+      },
+
+      {
+        "question": "If x + 5 = 10, what is x?",
+        "options": ["0", "5", "-5", "2"],
+        "correct_answer": "5"
+      },
+      
+      {
+        "question": "What does the commutative property of multiplication state?",
+        "options": ["a * b = b * a", "a * b = b * b", "a * b = a * a", "a * b = a + b"],
+        "correct_answer": "a * b = b * a"
+      },
+
+      {
+        "question": "What is the greatest common divisor (GCD) of 8 and 12?",
+        "options": ["6", "4", "8", "12"],
+        "correct_answer": "4"
+      },
+
+      {
+        "question": "Which of the following is not a property of a square?",
+        "options": ["All sides are equal", "It has five sides", "Its interior angles add up to 360", "Opposite sides are parallel"],
+        "correct_answer": "It has five sides"
+      },
+
+      {
+        "question": "If a number is divisible by 2 and 3, it is also divisible by:",
+        "options": ["6", "4", "7", "10"],
+        "correct_answer": "6"
+      },
+      
+      {
+        "question": "What is the area of a circle with radius r?",
+        "options": ["pi^2 * r", "pi * r^2", "r^2", "pi^2"],
+        "correct_answer": "pi * r^2"
+      },
+
+      {
+        "question": "Which of the following is an example of a linear equation?",
+        "options": ["x + y = 3", "x^2 + y^2 = 4", "x^2 + x = y", "y^2 = x"],
+        "correct_answer": "x + y = 3"
+      },
+      {
+        "question": "What is the additive identity in mathematics?",
+        "options": ["1", "0", "-1", "2"],
+        "correct_answer": "0"
+      },
+
+      {
+        "question": "If a^2 = b^2 what statement is true?",
+        "options": ["a = b", "a = b or a = -b", "a = -b", "-a = -b"],
+        "correct_answer": "a = b or a = -b"
+      }
+    ]
+  }
+}
