@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block main %}
+    <div class="quiz-container">
+        <h2>Question {{ session["current_question_index"] + 1 }}</h2>
+        <p>{{ question["question"] }}</p>
+
+        {% if session["show_feedback"] %}
+            <!-- Feedback Section -->
+            <div class="feedback">
+                {% if session["selected_answer"] == session["correct_answer"] %}
+                    <p class="correct">Correct!</p>
+                {% else %}
+                    <p class="incorrect">Incorrect. The correct answer is: <strong>{{ session["correct_answer"] }}</strong></p>
+                {% endif %}
+            </div>
+
+            <!-- Next Button -->
+            <form action="/play" method="POST">
+                <button type="submit" name="next" value="next">Next</button>
+            </form>
+
+        {% else %}
+            <!-- Question Form -->
+            <form action="/play" method="POST">
+                {% for option in options %}
+                    <div>
+                        <input type="radio" id="{{ option }}" name="answer" value="{{ option }}" required>
+                        <label for="{{ option }}">{{ option }}</label>
+                    </div>
+                {% endfor %}
+                <button type="submit" name="submit_answer" value="submit">Submit Answer</button>
+            </form>
+        {% endif %}
+    </div>
+{% endblock %}

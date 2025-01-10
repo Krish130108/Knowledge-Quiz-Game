@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block main %}
+    <div class="results-container text-center">
+        <h1>Quiz Results</h1>
+        <p>You answered <strong>{{ score }}</strong> questions out of <strong>{{ total }}</strong> correctly!</p>
+        <p>Percentage: {{ percentage }}%</p>
+
+        {% for grade_key, grade_message in grade.items() %}
+            <h2>Your Grade: {{ grade_key }}</h2>
+            <p class="grade">{{ grade_message }}</p>
+        {% endfor %}
+
+    </div>
+{% endblock %}

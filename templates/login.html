@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+<div class="d-flex justify-content-center align-items-center vh-100 custom-bg" style="margin-top: -50px;">
+    <div class="text-center p-4 bg-white rounded shadow" style="width: 360px;">
+        <h1 class="h4 mb-3 text-dark">Log In</h1>
+        <p class="text-muted mb-4">Welcome back! Please log into your account. Your username is the first 3 letters of your name and your age.</p>
+
+        <form action="/login" method="post">
+            <div class="mb-3">
+                <input autocomplete="on" autofocus class="form-control" name="username" placeholder="Username" type="text">
+            </div>
+            <div class="mb-3">
+                <input class="form-control" name="password" placeholder="Password" type="password">
+            </div>
+            <button class="btn btn-primary w-100 mb-3" type="submit">Log In</button>
+        </form>
+
+        <p class="text-muted small">Don't have an account? <a href="/register" class="text-primary">Sign up</a></p>
+    </div>
+</div>
+{% endblock %}

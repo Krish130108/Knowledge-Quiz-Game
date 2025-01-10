@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <div class="content">
+        <h1>User Report</h1>
+
+        {% if results and results|length > 0 %}
+            <h2>Quiz History for {{ selected_user["username"] }}</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Difficulty</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in results %}
+                        <tr>
+                            <td>{{ result["topic"].title() }}</td>
+                            <td>{{ result["difficulty"].title() }}</td>
+                            <td>{{ result["grade"].title() }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <h2>No quizzes found for {{ selected_user["username"] }}</h2>
+            <p style="text-align: center; font-size: 18px; color: #555;">This user has not taken any quizzes yet.</p>
+        {% endif %}
+
+        <div style="display: flex; justify-content: center; margin-top: 30px;">
+            <a href="/admin_user_report" class="btn">Back to Admin Panel</a>
+        </div>        
+    </div>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+
+        .back-button {
+            display: flex;          /* Use flexbox for centering */
+            justify-content: center; /* Center content horizontally */
+            margin-top: 30px;        /* Add space above */
+            margin-bottom: 30px;     /* Add space below */
+        }
+    </style>
+
+{% endblock %}

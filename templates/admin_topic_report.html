@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <div class="quiz-container">
+        <h1 class="quiz-title">Scorecard</h1>
+        <p class="quiz-description">Enter a topic and difficulty to display the highest and average score in that parameter!</p>
+
+        <form id="quizForm" action="/admin_topic_report" method="POST" class="quiz-form">
+
+            <!-- Topic Selection -->
+            <div class="form-group">
+                <label for="topic" class="form-label">Select a Topic:</label>
+                <select id="topic" name="topic" class="form-select" required>
+                    <option value="" disabled selected>Select a topic</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="history">History</option>
+                    <option value="maths">Maths</option>
+                </select>
+            </div>
+
+            <!-- Difficulty Options -->
+            <div class="form-group">
+                <label class="form-label">Select Difficulty:</label>
+                <div class="difficulty-options">
+                    <div class="difficulty-option">
+                        <input type="radio" id="easy" name="difficulty" value="easy" required>
+                        <label for="easy" class="difficulty-label">Easy</label>
+                    </div>
+                    <div class="difficulty-option">
+                        <input type="radio" id="medium" name="difficulty" value="medium">
+                        <label for="medium" class="difficulty-label">Medium</label>
+                    </div>
+                    <div class="difficulty-option">
+                        <input type="radio" id="hard" name="difficulty" value="hard">
+                        <label for="hard" class="difficulty-label">Hard</label>
+                    </div>
+                </div>
+            </div>            
+
+            <!-- Submit Button -->
+            <button type="submit" class="quiz-btn">Load Results</button>
+        </form>
+    </div>
+
+{% endblock %}

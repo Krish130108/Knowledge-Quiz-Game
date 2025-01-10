@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block main %}
+<div class="welcome-container">
+    <h1>Welcome to Knowledge Quiz{% if session.get("user_id") %}, {{ username }}{% endif %}!</h1>
+    <p>Challenge yourself and test your knowledge across a variety of topics including:</p>
+    <ul>
+        <li>Computer Science</li>
+        <li>History</li>
+        <li>Maths</li>
+    </ul>
+
+    <h2>How It Works</h2>
+    <ol>
+        <li>Register your account by providing your name, age, and year group. A unique username will be generated for you. It would be the first 3 letters of your username and your age.</li>
+        <li>Choose a topic and a difficulty level: <strong>Easy</strong>, <strong>Medium</strong>, or <strong>Hard</strong>.</li>
+        <li>Answer a series of questions, with answer choices increasing in number based on the difficulty.</li>
+        <li>At the end, see your score, percentage, and grade based on your performance.</li>
+    </ol>
+
+    <h2>What We Offer</h2>
+    <p>Keep track of your progress as every quiz you take is saved. You can view your past quizzes and grades at any time.</p>
+    <p>Teachers and admins can generate detailed reports to review quiz performance, including average scores and top achievers!</p>
+
+    {% if session.get("user_id") %}
+        <!-- If the user is logged in, redirect to the quiz page -->
+        <a href="/quiz" class="btn btn-primary">Go to Quiz</a>
+    {% else %}
+        <!-- If the user is not logged in, allow them to register -->
+        <a href="/register" class="btn btn-primary">Get Started</a>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,194 @@
+{% extends "layout.html" %}
+
+{% block main %}
+
+    <h1>Admin Panel: List of All Users</h1>
+    <p>Search for a user to view their quiz history and grades.</p>
+
+    <!-- Centered Search Box -->
+    <div class="search-container">
+        <form method="POST" action="/admin_user_report">
+            <input type="number" name="user_id" placeholder="Search user id" required>
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <style>        /* Form Select */
+        .form-select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+
+        p {
+            text-align: center;
+            margin: 10px auto 20px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Centering the search box */
+        .search-container {
+            display: flex;
+            justify-content: center; /* Centers horizontally */
+            margin-bottom: 30px; /* Space below the search box */
+        }
+
+        /* Form styling */
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px; /* Adds space between input and button */
+        }
+
+        input[type="number"] {
+            padding: 12px;
+            font-size: 16px;
+            width: 250px; /* Adjust the width of the input */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Additional styling for tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        /* General Content Styling */
+        .content {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+
+        /* Button Styling */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        </style>
+
+    {% if quizzes %}
+        <h2>Quizzes Taken by {{ selected_user["username"] }}</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Quiz Name</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for quiz in quizzes %}
+                    <tr>
+                        <td>{{ quiz["quiz_name"] }}</td>
+                        <td>{{ quiz["grade"] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% elif selected_user %}
+        <p>No quizzes found for this user.</p>
+    {% endif %}
+
+    <!-- List of All Users -->
+    <h2>All Users</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+                <tr>
+                    <td>{{ row["id"] }}</td>
+                    <td>{{ row["username"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
